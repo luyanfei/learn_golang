@@ -9,6 +9,17 @@
 3. 根据要求完成代码编写。
 4. 运行"go test"来验证你的解答是否通过测试。看到"PASS"字样，即为成功。
 5. 若没有思路，则可直接查看answers目录下的解答。
+6. 完成练习后，用git checkout命令重置源文件，方便下次使用。
+
+#### 使用示例
+```
+$ cd 001_errors
+$ vim errors.go
+$ go test
+PASS
+ok      goerrors        0.001s
+$ git checkout goerrors.go
+```
 
 #### 运行环境
 1. Go 1.13
